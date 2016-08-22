@@ -1,0 +1,27 @@
+{
+  "name": "website_wozki-sadownicze.pl",
+  "version": "1.0.0",
+  "authors": [
+    "Karol Golec <kargolsan@gmail.com>"
+  ],
+  "description": "Website company operating in the agricultural sector.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.2.3",
+    "motion-ui": "~1.2.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "waypoints": "^4.0.0",
+    "jsonlylightbox": "^0.5.4",
+    "foundation-icon-fonts": "*"
+  }
+}
