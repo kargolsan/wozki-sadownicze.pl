@@ -24,6 +24,10 @@
 
 .top-bar-right .menu {
   text-align: center;
+  @include breakpoint(small only) {
+    padding-top: 1.0rem;
+    padding-bottom:1.0rem;
+  }
   li {
     display: inline-block;
     *display: inline; /*IE7*/

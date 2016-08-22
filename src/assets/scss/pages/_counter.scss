@@ -8,6 +8,16 @@
   .columns {
     text-align: center;
     padding: 3rem 4rem;
+    @include breakpoint(medium only) {
+      padding: 0rem;
+    }
+    @include breakpoint(small only) {
+      padding: 0rem;
+      margin-top:4rem;
+      &:first-child {
+        margin-top:2rem;
+      }
+    }
   }
   .count {
     background-color: rgba(0, 0, 0, 0.35);
@@ -19,10 +29,19 @@
     padding-top: 59px;
     border: 2px solid white;
 
+    @include breakpoint(medium only) {
+      width: 160px;
+      height: 160px;
+      padding-top: 49px;
+    }
+
     span {
       font-size: 50px;
       color: white;
       font-weight: bold;
+      @include breakpoint(medium only) {
+        font-size: 40px;
+      }
     }
   }
   .info {

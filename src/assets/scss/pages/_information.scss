@@ -63,7 +63,10 @@
       margin-top: 1.4rem;
       display: inline-block;
       color: #585858;
+
+      @include breakpoint(medium only) {
+        margin-left:1.3rem;
+      }
     }
   }
-
 }

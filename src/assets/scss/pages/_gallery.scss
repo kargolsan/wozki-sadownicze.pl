@@ -3,6 +3,9 @@
 #gallery {
   padding: 5rem 3rem;
   background: url('../img/bg_section_gallery.png') repeat ;
+  @include breakpoint(small only) {
+    padding: 2rem;
+  }
   img {
     margin-top: 1.3rem;
   }
